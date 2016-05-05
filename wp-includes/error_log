@@ -1,0 +1,1 @@
+[08-Nov-2015 14:53:30] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/foursun/public_html/wp-includes/rss-functions.php on line 8

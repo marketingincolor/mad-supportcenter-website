@@ -1,0 +1,1 @@
+[28-Nov-2012 16:50:40] PHP Warning:  fopen(./cache/timthumb_int_04ebb263a8c6f5e3ee897988bfc5d99c.timthumb.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/jparr55/public_html/wp-content/plugins/slider-pro/includes/timthumb/timthumb.php on line 1020

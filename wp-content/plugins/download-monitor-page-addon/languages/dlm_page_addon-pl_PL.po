@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Download Monitor Page Addon v1.1.1 PL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-02 14:32+0100\n"
+"PO-Revision-Date: 2013-12-02 14:35+0100\n"
+"Last-Translator: Krzysztof Machocki <halibutt@gmail.com>\n"
+"Language-Team: Halibutt <halibutt@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ default
+#: ../download-monitor-page-addon.php:117
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Wystąpił nieoczekiwany błąd HTTP podczas zapytania API.</p> <p><a href=\"?\" "
+"onclick=\"document.location.reload(); return false;\">Spróbuj ponownie</a>"
+
+# @ default
+#: ../download-monitor-page-addon.php:122
+msgid "An unknown error occurred"
+msgstr "Nastąpił nieznany błąd"
+
+# @ dlm_page_addon
+#: ../download-monitor-page-addon.php:314
+#, php-format
+msgid "Searching for \"%s\""
+msgstr "Szukam \"%s\""
+
+# @ github_plugin_updater
+#: ../updater.php:418
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"Wtyczka została zaktualizowana, ale jej reaktywacja się nie powiodła. "
+"Spróbuj włączyć ją ręcznie."
+
+# @ github_plugin_updater
+#: ../updater.php:419
+msgid "Plugin reactivated successfully."
+msgstr "Wtyczkę reaktywowano pomyślnie."
+
+# @ download_monitor
+#: ../templates/content-download-pa-single.php:18
+msgid "Download"
+msgstr "Pobierz"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:42
+msgid "Previous versions"
+msgstr "Wcześniejsze wersje"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:48
+#, php-format
+msgid "Version %s"
+msgstr "Wersja %s"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:58
+msgid "Filename"
+msgstr "Nazwa pliku"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:63
+msgid "Filesize"
+msgstr "Rozmiar pliku"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:68
+msgid "Version"
+msgstr "Wersja"
+
+# @ dlm_page_addon
+# @ download_monitor
+#: ../templates/content-download-pa-single.php:73 ../templates/orderby.php:6
+msgid "Date added"
+msgstr "Data dodania"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:78
+msgid "Downloaded"
+msgstr "Pobrano"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:79
+#, php-format
+msgid "1 time"
+msgid_plural "%d times"
+msgstr[0] "1 raz"
+msgstr[1] "%d razy"
+msgstr[2] "%d razy"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:83
+msgid "Category"
+msgstr "Kategoria"
+
+# @ dlm_page_addon
+#: ../templates/content-download-pa-single.php:88
+#: ../templates/download-tags.php:2
+msgid "Tags"
+msgstr "Etykiety"
+
+# @ download_monitor
+#: ../templates/content-download-pa-thumbnail.php:9
+#: ../templates/content-download-pa.php:9
+#, php-format
+msgid "1"
+msgid_plural "%d"
+msgstr[0] "1"
+msgstr[1] "%d"
+msgstr[2] "%d"
+
+# @ dlm_page_addon
+#: ../templates/featured-downloads.php:3
+msgid "Featured"
+msgstr "Wyróżnione"
+
+# @ dlm_page_addon
+#: ../templates/no-downloads-found.php:1
+msgid "No downloads found."
+msgstr "Nie znaleziono plików."
+
+# @ dlm_page_addon
+#: ../templates/orderby.php:2
+msgid "Order by:"
+msgstr "Posortuj wedle:"
+
+# @ download_monitor
+#: ../templates/orderby.php:5
+msgid "Title"
+msgstr "Tytuł"
+
+# @ download_monitor
+#: ../templates/orderby.php:7
+msgid "Download count"
+msgstr "Licznik pobrań"
+
+# @ dlm_page_addon
+#: ../templates/search-downloads.php:3
+msgid "Search Downloads"
+msgstr "Przeszukaj pliki"
+
+# @ dlm_page_addon
+#: ../templates/search-downloads.php:4
+msgid "Search downloads..."
+msgstr "Szukaj pliku..."
+
+# @ dlm_page_addon
+#: ../templates/search-downloads.php:5
+msgid "Search"
+msgstr "Szukaj"
+
+# @ dlm_page_addon
+#: ../templates/subcategories.php:16
+msgid "Subcategories:"
+msgstr "Podkategorie:"

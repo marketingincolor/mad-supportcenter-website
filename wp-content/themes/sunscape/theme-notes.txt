@@ -1,0 +1,11 @@
+This link shows how I edited the RSS feed: http://www.456bereastreet.com/archive/201103/controlling_and_customising_rss_feeds_in_wordpress/
+
+Feed is set up using an adjustment on the functions.php file which removes the standard feeds, then uses a custom feed PHP file to generate a new feed.
+
+===============================
+On home-page template, changed:
+
+	query_posts('posts_per_page=4');
+to
+	global $query_string; query_posts($query_string . "&posts_per_page=4");
+===============================
