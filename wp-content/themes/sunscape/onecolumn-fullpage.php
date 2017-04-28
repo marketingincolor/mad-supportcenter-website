@@ -22,7 +22,19 @@ get_header(); ?>
 			 * If you want to overload this in a child theme then include a file
 			 * called loop-page.php and that will be used instead.
 			 */
-			 get_template_part( 'loop', 'page' );
+			if (is_user_logged_in()) {
+			    get_template_part( 'loop', 'page' );
+			} else {
+			    while (have_posts()) {
+			        the_post();
+				echo '<h2 class="entry-title">';
+				the_title();
+				echo '</h2>';
+				the_excerpt();
+			    }
+			    echo 'You are required to login to view this page.<br/><br/>';
+			    wp_login_form();
+			}
 			?>
 
 			</div><!-- #content -->
