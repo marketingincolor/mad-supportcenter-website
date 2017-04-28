@@ -620,7 +620,7 @@ div.menu li {
 .hentry {
 	margin: 0 0 25px 0;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #7e7e7e;
+	border-bottom: 0px solid #7e7e7e;
 }
 
 .page-template-custom-page-marketing .hentry { border-bottom: none; }
@@ -1358,6 +1358,7 @@ h3#reply-title {
 
 #text-7.widget-container { border: none; padding-bottom: 0; }
 #text-7 .textwidget { padding: 0; }
+#text-7.widget-container {height:15em;}
 
 
 .widget-area a:link,
@@ -1663,3 +1664,5 @@ code {
 
 .outfeed { margin:0; list-style:none; }
 .outfeed li {}
+#text-14 > div:first-child { padding:0px; }
+#primary .widget-container { border:none; }
