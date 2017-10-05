@@ -1487,6 +1487,8 @@ img#wpstats {
 
 a.facebook-link,
 a.twitter-link,
+a.linkedin-link,
+a.google-link,
 a.rss-link {
 	color: #fff;
 	line-height: 25px;
@@ -1495,9 +1497,9 @@ a.rss-link {
 }
 
 a.facebook-link { background: url(images/fb-icon.png) 0 center no-repeat; }
-
 a.twitter-link { background: url(images/twitter-icon.png) 0 center no-repeat; }
-
+a.google-link { background: url(images/gp-icon.png) 0 center no-repeat; }
+a.linkedin-link { background: url(images/li-icon.png) 0 center no-repeat; }
 a.rss-link { background: url(images/rss-icon.png) 0 center no-repeat; }
 
 
